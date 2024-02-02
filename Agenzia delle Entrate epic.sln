@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agenzia delle Entrate epic", "Agenzia delle Entrate epic\Agenzia delle Entrate epic.csproj", "{D7A0CC0B-5105-4CCB-BA59-7FED3133A403}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7A0CC0B-5105-4CCB-BA59-7FED3133A403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A0CC0B-5105-4CCB-BA59-7FED3133A403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A0CC0B-5105-4CCB-BA59-7FED3133A403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A0CC0B-5105-4CCB-BA59-7FED3133A403}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBAF9B70-EE57-4850-BA39-90CEDD2D04F9}
+	EndGlobalSection
+EndGlobal
