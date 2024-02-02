@@ -14,6 +14,7 @@ namespace Agenzia_delle_Entrate_epic
         public double imposta { get; set; }
         public double redditoAnnualeNetto { get; set; }
 
+        // Metodi costum per fare il get delle proprietà private
         public string GetName()
         {
             return nome;
@@ -83,9 +84,6 @@ namespace Agenzia_delle_Entrate_epic
                     imposta = 25420 + ((reddito - 75900) * 43 / 100);
                     break;
                 default:
-                    Console.WriteLine("Reddito annuale non inserito. Riprova ad inserire");
-                    Console.WriteLine("il tuo reddito annuale per effettuare il calcolo.");
-                    SportelloAgenzia.Menu();
                     break;
             }
             return redditoAnnualeNetto = reddito - imposta;

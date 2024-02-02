@@ -123,9 +123,17 @@ namespace Agenzia_delle_Entrate_epic
             } while (comuneResidenza == "");
             Console.WriteLine("Inserisci il tuo reddito annuale: ");
             double reddito;
-            while (!double.TryParse(Console.ReadLine(), out reddito))
+            while (!double.TryParse(Console.ReadLine(), out reddito) || reddito < 0)
             {
-                Console.WriteLine("Input non valido, inserisci un importo numerico.");
+                if (reddito < 0)
+                {
+                    Console.WriteLine("Input non valido, non puoi inserire un reddito negativo");
+                }
+                else
+                {
+
+                    Console.WriteLine("Input non valido, inserisci un importo numerico.");
+                }
             }
             // instazio l'oggetto utente dalla classe Contribuente e inizializzo i valori passando tutte le variabili raccolte dagli input.
             Contribuente utente = new Contribuente(nome, cognome, dataNascita, codiceFiscale, sesso, comuneResidenza, reddito);
